@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 25px auto;
+    /* font-size: 0; */
+    color: #757575;
+}
+
+.about_Jane {
+    display: grid;
+    max-width: 100%;
+    gap: 15px;
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+    font-family: sans-serif;
+    grid-template-areas: 
+                        "left Experience"
+                        "left Education";
+}
+
+.left {
+    grid-area: left;
+}
+
+.Experience {
+    grid-area: Experience;
+}
+
+.Education {
+    grid-area: Education;
+}
+
+.Jane_img {
+    position: relative;
+}
+
+.Jane_img img {
+    width: 100%;
+    display: block;
+}
+
+.Jane_img h2 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: black;
+
+}
+
+.left {
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    align-self: start;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%),
+        0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+
+.info h5 {
+    margin: 15px 15px 0;
+}
+
+.container i {
+    margin-right: 10px;
+    color: #009688;
+}
+
+.tel {
+    padding-bottom: 25px;
+    border-bottom: .2px solid rgba(0, 0, 0, .2);
+}
+
+.Skills {
+    padding: 25px 15px;
+}
+
+.Skills h3 {
+    padding: 15px 0;
+}
+
+.Skills p {
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    margin: 15px 0;
+    font-size: 0;
+}
+
+.Skills span {
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #009688;
+    color: white;
+}
+
+
+.test {
+    background-color: white;
+    padding: 30px 15px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%),
+        0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.title {
+    font-size: 20px;
+}
+
+.text {
+    color: black;
+}
+
+.about_work {
+    padding: 25px 25px 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.about_work p.calendar {
+    padding: 15px 0;
+    color: #009688;
+}
+
+.about_work p span {
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: #009688;
+    color: white;
+}
+
+.Education {
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%),
+        0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+footer {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.icon_flex .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.icons li {
+    list-style: none;
+    padding: 0 5px;
+}
+
+.icons li a {
+    text-decoration: none;
+    color: white;
+}
+
+i .face:hover,
+i .twitter:hover,
+i .linkedin:hover {
+    background-color: blue;
+    color: black;
+}
+
+.face {
+    background-color: white;
+    color: #009688 !important;
+}
+
+.notifications:hover {
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+}
+
+.insta:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 187, 0);
+}
+
+.w3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.w3 p {
+    color: white;
+    display: inline-block;
+}
+
+.w3 p a {
+    color: white;
+}
+
+.w3 p a:hover {
+    color: rgb(0, 255, 0);
+}
+@media screen and (max-width:600px) {
+    .respo {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+                        "left left"
+                        "Experience Experience"
+                        "Education Education";
+    }
+}
