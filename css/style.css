@@ -48,7 +48,7 @@ body {
     display: block;
 }
 
-.Jane_img h2 {
+.Jane_img h1 {
     position: absolute;
     bottom: 15px;
     left: 15px;
@@ -208,10 +208,12 @@ i .linkedin:hover {
 }
 @media screen and (max-width:600px) {
     .respo {
+        margin: 0 25px;
         grid-template-columns: 1fr;
         grid-template-areas: 
                         "left left"
                         "Experience Experience"
                         "Education Education";
     }
+    
 }
