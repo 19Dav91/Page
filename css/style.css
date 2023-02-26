@@ -22,9 +22,9 @@ body {
     grid-template-columns: 1fr 2fr;
     align-items: start;
     font-family: sans-serif;
-    grid-template-areas: 
-                        "left Experience"
-                        "left Education";
+    grid-template-areas:
+        "left Experience"
+        "left Education";
 }
 
 .left {
@@ -104,6 +104,37 @@ body {
     color: white;
 }
 
+.progress-bar .progress__90 {
+    width: 90%;
+}
+
+.progress-bar .progress__80 {
+    width: 80%;
+}
+
+.progress-bar .progress__75 {
+    width: 75%;
+}
+
+.progress-bar .progress__50 {
+    width: 50%;
+}
+
+.languages {
+    height: 18px;
+}
+
+.english {
+    width: 100%;
+}
+
+.spanish {
+    width: 60%;
+}
+
+.german {
+    width: 30%;
+}
 
 .test {
     background-color: white;
@@ -170,8 +201,8 @@ footer {
 i .face:hover,
 i .twitter:hover,
 i .linkedin:hover {
-    background-color: blue;
-    color: black; 
+    /* background-color: blue; */
+    color: blue;
 }
 
 .notifications:hover {
@@ -201,14 +232,15 @@ i .linkedin:hover {
 .w3 p a:hover {
     color: rgb(0, 255, 0);
 }
+
 @media screen and (max-width:600px) {
     .respo {
         margin: 0 25px;
         grid-template-columns: 1fr;
-        grid-template-areas: 
-                        "left left"
-                        "Experience Experience"
-                        "Education Education";
+        grid-template-areas:
+            "left left"
+            "Experience Experience"
+            "Education Education";
     }
-    
+
 }
