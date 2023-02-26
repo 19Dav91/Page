@@ -15,7 +15,7 @@ body {
     color: #757575;
 }
 
-.about_Jane {
+.about_jane {
     display: grid;
     max-width: 100%;
     gap: 15px;
@@ -39,16 +39,16 @@ body {
     grid-area: Education;
 }
 
-.Jane_img {
+.jane_img {
     position: relative;
 }
 
-.Jane_img img {
+.jane_img img {
     width: 100%;
     display: block;
 }
 
-.Jane_img h1 {
+.jane_img h1 {
     position: absolute;
     bottom: 15px;
     left: 15px;
@@ -80,22 +80,22 @@ body {
     border-bottom: .2px solid rgba(0, 0, 0, .2);
 }
 
-.Skills {
+.skills {
     padding: 25px 15px;
 }
 
-.Skills h3 {
+.skills h3 {
     padding: 15px 0;
 }
 
-.Skills p {
+.skills p {
     background-color: #F1F1F1;
     border-radius: 15px;
     margin: 15px 0;
     font-size: 0;
 }
 
-.Skills span {
+.skills span {
     display: inline-block;
     font-size: 12px;
     border-radius: 15px;
@@ -171,12 +171,7 @@ i .face:hover,
 i .twitter:hover,
 i .linkedin:hover {
     background-color: blue;
-    color: black;
-}
-
-.face {
-    background-color: white;
-    color: #009688 !important;
+    color: black; 
 }
 
 .notifications:hover {
